@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MadlipForm from './madlip_form';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
           Fill out the fields below and click the generate button <br/> to see the madlip storey
         </div>
         </div>
+        <MadlipForm />
         </div>
         
       </div>
